@@ -4,6 +4,7 @@ namespace ecstsy\DropPackages;
 
 use ecstsy\DropPackages\Commands\GiveDpCommand;
 use ecstsy\DropPackages\Listeners\EventListener;
+use muqsit\invmenu\InvMenuHandler;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\SingletonTrait;
 
@@ -23,6 +24,10 @@ class Loader extends PluginBase {
         ]);
 
         $this->saveResourceFiles('dp');
+
+        if (!InvMenuHandler::isRegistered()) {
+            InvMenuHandler::register($this);
+        }
     }
 
     private function saveResourceFiles(string $resourceDir): void {
