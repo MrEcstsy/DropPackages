@@ -1,0 +1,15 @@
+name: DropPackages
+main: ecstsy\DropPackages\Loader
+api: 5.0.0
+version: 1.0.0
+author: ecstsy
+depend:
+  - CustomSizedInvMenu
+
+permissions:
+  droppackages.admin:
+    default: op
+    description: "Gives access to /droppackage command."
+  droppackages.give:
+    default: op
+    description: "Gives access to /givedp command."  

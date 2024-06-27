@@ -1,0 +1,190 @@
+# Drop Package Configuration
+settings:
+  title: "Unique Space Chest" # The title of the menu
+  redeemable items: 5
+
+reveal-chances:
+  LEGENDARY: 5
+  ULTIMATE: 10
+  ELITE: 15
+  UNIQUE: 20
+  SIMPLE: 25
+
+item:
+  item: "chest"
+  name: "&r&a&lUnique Server Chest &r&7(Right Click)"
+  lore:
+  - "&r&7A cache of equipment packed by"
+  - "&r&7the Intergalactic Server Station."
+  - " "
+  - "&r&7Contains &a5 Simple rarity&r &7items..."
+  - "&r&a&l* &r&7Vanilla Equipment"
+  - "&r&a&l* &r&7Vanilla Potions"
+  - "&r&a&l* &r&7Food"
+  - "&r&a&l* &r&7Buckets"
+  - "&r&a&l* &r&7$10,000 "
+
+display:
+  rarity: "&r&aUnique"
+  item: "lime_stained_glass_pane"
+  name: "&r&a&lUnique Mystery Item"
+
+open-gui:
+  item: "lime_stained_glass"
+  name: "&r&a&l???&r &7#{SLOT}"
+  lore:
+  - "&r&7Choose &a5 mystery items&r &7and,"
+  - "&r&7your &a&lUnique&r &7loot will be revealed."
+
+selected: # When you select a "open-gui" item, this item replaces the clicked item
+  item: "chest"
+  name: "&r&a&lMystery Item #{SLOT}"
+  lore:
+  - "&r&7You have selected this mystery item."
+
+rewards:
+  simple:
+    - item: "cooked_chicken"
+      amount: 16
+    - item: "cookie"
+      amount: 64
+    - item: "water_bucket"
+    - item: "lava_bucket"
+    - item: "bucket"
+    - item: "emerald_block"
+    - item: "golden_apple"
+      amount: 24
+    - item: "cooked_beef"
+      amount: 16
+    - item: "diamond_helmet"
+      name: "&r&f&lDiamond Helmet"
+    - item: "diamond_chestplate"
+      lore: 
+        - "&r&7A chestplate made of diamond."
+    - item: "diamond_leggings"
+      enchantments: 
+        - enchant: "protection"
+          level: 4
+    - item: "diamond_boots"
+      name: "&r&f&lDiamond Boots"
+      lore: 
+        - "&r&7A pair of boots made of diamond."
+      enchantments:
+        - enchant: "protection"
+          level: 4
+  unique: 
+    - item: "cooked_chicken"
+      amount: 16
+    - item: "cookie"
+      amount: 64
+    - item: "water_bucket"
+    - item: "lava_bucket"
+    - item: "bucket"
+    - item: "emerald_block"
+    - item: "golden_apple"
+      amount: 24
+    - item: "cooked_beef"
+      amount: 16
+    - item: "diamond_helmet"
+      name: "&r&f&lDiamond Helmet"
+    - item: "diamond_chestplate"
+      lore: 
+        - "&r&7A chestplate made of diamond."
+    - item: "diamond_leggings"
+      enchantments: 
+        - enchant: "protection"
+          level: 4
+    - item: "diamond_boots"
+      name: "&r&f&lDiamond Boots"
+      lore: 
+        - "&r&7A pair of boots made of diamond."
+      enchantments:
+        - enchant: "protection"
+          level: 4
+  elite: 
+    - item: "cooked_chicken"
+      amount: 16
+    - item: "cookie"
+      amount: 64
+    - item: "water_bucket"
+    - item: "lava_bucket"
+    - item: "bucket"
+    - item: "emerald_block"
+    - item: "golden_apple"
+      amount: 24
+    - item: "cooked_beef"
+      amount: 16
+    - item: "diamond_helmet"
+      name: "&r&f&lDiamond Helmet"
+    - item: "diamond_chestplate"
+      lore: 
+        - "&r&7A chestplate made of diamond."
+    - item: "diamond_leggings"
+      enchantments: 
+        - enchant: "protection"
+          level: 4
+    - item: "diamond_boots"
+      name: "&r&f&lDiamond Boots"
+      lore: 
+        - "&r&7A pair of boots made of diamond."
+      enchantments:
+        - enchant: "protection"
+          level: 4
+  ultimate:
+    - item: "cooked_chicken"
+      amount: 16
+    - item: "cookie"
+      amount: 64
+    - item: "water_bucket"
+    - item: "lava_bucket"
+    - item: "bucket"
+    - item: "emerald_block"
+    - item: "golden_apple"
+      amount: 24
+    - item: "cooked_beef"
+      amount: 16
+    - item: "diamond_helmet"
+      name: "&r&f&lDiamond Helmet"
+    - item: "diamond_chestplate"
+      lore: 
+        - "&r&7A chestplate made of diamond."
+    - item: "diamond_leggings"
+      enchantments: 
+        - enchant: "protection"
+          level: 4
+    - item: "diamond_boots"
+      name: "&r&f&lDiamond Boots"
+      lore: 
+        - "&r&7A pair of boots made of diamond."
+      enchantments:
+        - enchant: "protection"
+          level: 4
+  legendary:
+    - item: "cooked_chicken"
+      amount: 16
+    - item: "cookie"
+      amount: 64
+    - item: "water_bucket"
+    - item: "lava_bucket"
+    - item: "bucket"
+    - item: "emerald_block"
+    - item: "golden_apple"
+      amount: 24
+    - item: "cooked_beef"
+      amount: 16
+    - item: "diamond_helmet"
+      name: "&r&f&lDiamond Helmet"
+    - item: "diamond_chestplate"
+      lore: 
+        - "&r&7A chestplate made of diamond."
+    - item: "diamond_leggings"
+      enchantments: 
+        - enchant: "protection"
+          level: 4
+    - item: "diamond_boots"
+      name: "&r&f&lDiamond Boots"
+      lore: 
+        - "&r&7A pair of boots made of diamond."
+      enchantments:
+        - enchant: "protection"
+          level: 4        
