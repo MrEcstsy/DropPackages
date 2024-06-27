@@ -1,6 +1,6 @@
 name: DropPackages
 main: ecstsy\DropPackages\Loader
-api: 5.0.0
+api: 5.3.0
 version: 1.0.0
 author: ecstsy
 
